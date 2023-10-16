@@ -33,8 +33,9 @@
 
 # Follow up: Could you solve it without converting the integer to a string?
 # 
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        if x < 0:
-            return False
-        return str(x) == str(x)[::-1]
+def isPalindrome(x):
+    if x < 0:
+        return False
+    return str(x) == str(x)[::-1]
+print(isPalindrome(1234321))
+# Completed

@@ -50,6 +50,4 @@ class Solution:
                 return [dic[target-v], i]
             dic[v] = i
         return []
-        
-        
-        
+# Completed

@@ -32,6 +32,17 @@ n == height.length
 0 <= height[i] <= 104"""
 def maxArea(height):
     result = 0
+    p1 = 0
+    p2 = len(height) - 1
+    while(p1 < p2):
+        area = min(height[p1],height[p2]) * (p2-p1)
+        print("value at p1 = ",height[p1])
+        print("value at p2 = ",height[p2])
+        print("area = ",area)
+
+        if area > result : result = area
+        if height[p1] <= height[p2] : p1 += 1 
+        else : p2 -= 1
     return result
-height = [1,8,6,2,5,4,8,3,7]
+height = [2,3,4,5,18,17,6]
 print(maxArea(height))

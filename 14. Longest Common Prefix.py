@@ -42,32 +42,4 @@ strs = ["dog","racecar","car"]
 print(longestCommonPrefix(strs))
 strs = ["ab", "a"]
 print(longestCommonPrefix(strs))
-# def longestCommonPrefix(strs):
-#     result = ''
-#     # Find shortest len 
-#     for index,i in enumerate(strs[0]):
-#         tempchar = i[0]
-#         # print("temp char = ",tempchar)
-#         for j in enumerate(strs):
-#             if len(j[1])-1 >= index:
-#                 # index of word = j[0]
-#                 print("value of j = ",j[1])
-#                 # print("value of j char = ",j[1][index])
-#                 # print("j index value =",j[index])
-#                 if j[1][index] == tempchar:
-#                     if j[0] == len(strs)-1:
-#                         result = result + tempchar
-#                         # print(result)
-#                     else:
-#                         continue
-#                 else:
-#                     return result
-#             else:
-#                 return result
-#     return result 
-# strs = ["flower","flow","flight"]
-# print(longestCommonPrefix(strs))
-# strs = ["dog","racecar","car"]
-# print(longestCommonPrefix(strs))
-# strs = ["ab", "a"]
-# print(longestCommonPrefix(strs))
+# Completed

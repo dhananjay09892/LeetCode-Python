@@ -48,28 +48,10 @@ def getRow(rowIndex):
                 lastVal = v
         result.append(1)
     return result
-        
 
-    # arr = [1]
-    # i = 0
-    # for i in getRow(rowIndex-1):
-    #     if i == 0:
-    #         arr 
-    #         arr[i] = arr[i-1]+ arr[i]
-    #     i += 1
-    #     arr = 
-    # count = rowIndex + 1
-    # while(len(arr) != count):
-    #     i = 0
-    #     for v in arr:
-    #         if i != 0:
-    #             arr[i] = arr[i-1]+ arr[i]
-    #         i += 1
-    #     arr.append(1)
-    #     print(arr[0])
-    # return arr
         
 print(getRow(1))
 print(getRow(2))
 print(getRow(3))
 print(getRow(4))
+# Completed
